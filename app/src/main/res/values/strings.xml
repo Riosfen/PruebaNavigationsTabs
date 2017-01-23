@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PruebaNavigationsTabs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_ordenados">Las cartas anteriores deben estar ordenadas.</string>
+    <string name="mayor_3">La diferencia del valor no debe ser mayor que 3.</string>
+    <string name="gana">Enhorabuena! Lo has completado.</string>
+    <string name="primerCoeficiente">Primer Coeficiente</string>
+    <string name="coeficiente1">0</string>
+    <string name="segundoCoeficiente">Segundo Coeficiente</string>
+    <string name="coeficiente2">0</string>
+    <string name="tercerCoeficiente">Tercer Coeficiente</string>
+    <string name="coeficiente3">0</string>
+    <string name="solucion1"></string>
+    <string name="solucion2"></string>
+    <string name="Calcular">Calcular</string>
+    <string name="reiniciar">Reiniciar</string>
+</resources>

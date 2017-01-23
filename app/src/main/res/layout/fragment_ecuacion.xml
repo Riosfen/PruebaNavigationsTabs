@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_margin="10px"
+        android:text="Primer Coeficiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/primerCoeficiente" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/coeficiente1"
+        android:text="0" />
+
+    <TextView
+        android:layout_margin="10px"
+        android:text="Segundo Coeficiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/segundoCoeficiente" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/coeficiente2"
+        android:text="0" />
+
+    <TextView
+        android:layout_margin="10px"
+        android:text="Tercer Coeficiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tercerCoeficiente" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/coeficiente3"
+        android:text="0" />
+
+    <Button
+        android:layout_marginLeft="225px"
+        android:layout_marginRight="225px"
+        android:layout_marginTop="10px"
+        android:text="calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Calcular" />
+
+    <Button
+        android:visibility="invisible"
+        android:layout_marginLeft="225px"
+        android:layout_marginRight="225px"
+        android:layout_marginTop="10px"
+        android:text="Reiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reiniciar" />
+
+    <TextView
+        android:textSize="50px"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/solucion1" />
+
+    <TextView
+        android:textSize="50px"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/solucion2" />
+</LinearLayout>
